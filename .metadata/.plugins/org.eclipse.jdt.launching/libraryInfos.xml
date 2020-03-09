@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\abhijit\programs\graalvm-ce-19.1.1" version="1.8.0_222">
+<bootpath>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\resources.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\rt.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\sunrsasign.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\jsse.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\jce.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\charsets.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\jfr.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\jvmci-services.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\classes"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\boot\graal-sdk.jar"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\boot\graal-sdk.src.zip"/>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\boot\graaljs-scriptengine.jar"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\abhijit\programs\graalvm-ce-19.1.1\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

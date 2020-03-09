@@ -1,0 +1,21 @@
+package in.indigenous.validation.validators;
+
+import javax.validation.ConstraintValidator;
+import javax.validation.ConstraintValidatorContext;
+
+/**
+ * The Class SourceValidatorImpl.
+ */
+public class SourceValidatorImpl implements ConstraintValidator<SourceValidator, String> {
+	
+	public void initialize(UniqueLogin constraint) {
+    }
+
+	@Override
+	public boolean isValid(String value, ConstraintValidatorContext context) {
+		System.out.println("Trying to validate ... ");
+		return false;
+	}
+
+
+}

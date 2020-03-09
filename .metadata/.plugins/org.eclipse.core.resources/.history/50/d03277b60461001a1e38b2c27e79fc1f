@@ -1,0 +1,15 @@
+package in.indigenous.validation.model;
+
+public class RequestParams {
+
+	/** The version. */
+	private String version;
+
+	/** The source. */
+	private String source;
+
+	public static RequestParams getInstance() {
+		return new RequestParams();
+	}
+
+}

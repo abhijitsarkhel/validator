@@ -1,0 +1,20 @@
+package in.indigenous.validation.validators;
+
+import java.lang.annotation.Annotation;
+
+import javax.validation.ConstraintValidator;
+
+import in.indigenous.validation.model.RequestParams;
+
+/**
+ * The Class SourceValidatorImpl.
+ */
+public class SourceValidatorImpl implements ConstraintValidator<RequestParams, String> {
+
+	@Override
+	public Class<? extends Annotation> annotationType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

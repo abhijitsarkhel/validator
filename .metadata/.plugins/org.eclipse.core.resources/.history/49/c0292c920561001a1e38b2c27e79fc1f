@@ -1,0 +1,62 @@
+package in.indigenous.validation.model;
+
+public class RequestParams {
+
+	/** The version. */
+	private String version;
+
+	/** The source. */
+	private String source;
+	
+	/**
+	 * Instantiates a new request params.
+	 */
+	private RequestParams()  {
+		
+	}
+
+	/**
+	 * Gets the single instance of RequestParams.
+	 *
+	 * @return single instance of RequestParams
+	 */
+	public static RequestParams getInstance() {
+		return new RequestParams();
+	}
+	
+	public RequestParams withVersion(String version) {
+		this.setVersion(version);
+		return this;
+	}
+
+	/**
+	 * @return the version
+	 */
+	public String getVersion() {
+		return version;
+	}
+
+	/**
+	 * @return the source
+	 */
+	public String getSource() {
+		return source;
+	}
+
+	/**
+	 * @param version the version to set
+	 */
+	private void setVersion(String version) {
+		this.version = version;
+	}
+
+	/**
+	 * @param source the source to set
+	 */
+	private void setSource(String source) {
+		this.source = source;
+	}
+	
+	
+
+}

@@ -1,0 +1,16 @@
+package in.indigenous.validation;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import in.indigenous.validation.model.RequestParams;
+
+@SpringBootApplication
+public class Application {
+
+	public static void main(String[] args) {
+		RequestParams params = RequestParams.getInstance().withVersion("v1.0").withSource("PSC");
+		SpringApplication.run(Application.class, args);
+	}
+
+}

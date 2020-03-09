@@ -1,0 +1,16 @@
+package in.indigenous.validation.validators;
+
+import java.lang.annotation.Annotation;
+
+/**
+ * The Class SourceValidatorImpl.
+ */
+public class SourceValidatorImpl implements ConstraintValidator<UniqueLogin, String> {
+
+	@Override
+	public Class<? extends Annotation> annotationType() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

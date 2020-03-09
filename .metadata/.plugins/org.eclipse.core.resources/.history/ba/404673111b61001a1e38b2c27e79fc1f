@@ -1,0 +1,15 @@
+package in.indigenous.validation.validators;
+
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.lang.annotation.Target;
+
+import javax.validation.Constraint;
+
+@Target({ElementType.METHOD})
+@Retention(RetentionPolicy.RUNTIME)
+@Constraint(validatedBy = SourceValidatorImpl.class)
+public @interface SourceValidator {
+
+}

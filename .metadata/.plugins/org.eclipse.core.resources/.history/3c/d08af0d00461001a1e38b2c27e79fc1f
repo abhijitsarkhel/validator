@@ -1,0 +1,27 @@
+package in.indigenous.validation.model;
+
+public class RequestParams {
+
+	/** The version. */
+	private String version;
+
+	/** The source. */
+	private String source;
+	
+	/**
+	 * Instantiates a new request params.
+	 */
+	private RequestParams()  {
+		
+	}
+
+	/**
+	 * Gets the single instance of RequestParams.
+	 *
+	 * @return single instance of RequestParams
+	 */
+	public static RequestParams getInstance() {
+		return new RequestParams();
+	}
+
+}
